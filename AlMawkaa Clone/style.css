@@ -1,0 +1,272 @@
+* {
+  font-family: 'Droid Arabic Kufi';
+  font-weight: normal;
+  font-style: normal;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://elmawkaa.com/img/bg/home-bg.jpg');
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.fas.fa-user {
+  color: #fff;
+  margin-top: 20px;
+}
+.nav-item {
+  color: #fff;
+  margin-left: 300px;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 14px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.logo img {
+  width: 150px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: border-box;
+  margin-right: 500px;
+}
+
+.navContent li {
+  list-style-type: none;
+  font-size: small;
+  cursor: pointer;
+}
+.nav-item {
+  list-style-type: none;
+}
+
+.logo {
+  float: right;
+}
+
+.navContent ul {
+  display: flex;
+  flex-direction: row-reverse;
+  float: right;
+  color: #fff;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navContent ul li {
+  padding-right: 20px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 64px;
+  padding-top: 350px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.fa.fa-search {
+  color: white;
+  background-color: #935cae !important;
+  border-color: #935cae !important;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin-bottom: 50px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #ced4da;
+  width: 50%;
+  margin-top: 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.content {
+  min-height: 150px;
+  background-color: rgb(239, 239, 243);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 1rem;
+}
+.process {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-left: 560px;
+}
+
+.btnHow {
+  cursor: pointer;
+  color: #935cae;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border-color: #935cae;
+  margin: 0 0 2rem 0;
+  font-size: larger;
+}
+
+.btnHow:hover {
+  background-color: #935cae;
+  color: #fff;
+
+  transition: 0.3s ease;
+}
+
+.btn.active,
+.btn01.active,
+.btn02.active,
+.btn03.active {
+  background-color: rgb(147, 92, 174);
+
+  color: #fff;
+}
+
+.btn,
+.btn01,
+.btn02,
+.btn03 {
+  background-color: rgb(233, 236, 239);
+  color: rgb(170, 170, 170);
+  margin-right: 25px;
+  border-radius: 8px;
+  white-space: nowrap;
+  text-align: center;
+  height: 50px;
+  border-color: transparent;
+}
+
+.body {
+  width: 100%;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+.form-control {
+  width: 300px;
+  padding: 0.594rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid;
+  border-radius: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  outline: hidden;
+}
+
+.formSec {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn2.active {
+  background-color: rgb(147, 92, 174);
+
+  color: #fff;
+
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+.btn2 {
+  background-color: rgb(233, 236, 239);
+  color: rgb(170, 170, 170);
+  cursor: pointer;
+}
+.btn3 {
+  background-color: rgb(147, 92, 174);
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.btnFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.form,
+.form2 {
+  display: none;
+}
+
+.form.active,
+.form2.active {
+  display: block;
+}
